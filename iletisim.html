@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <title>İLETİŞİM</title>
+    <style>
+
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased; 
+    text-rendering: optimizeLegibility;
+}
+
+
+  body {
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: white;
+    height: 600px;
+   }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+  <header id="iletisim-header">
+    <nav>
+       
+
+        <a href="menu.html" >ANA SAYFA</a>
+        <a href="#" >GEZİLECEK YERLER</a>
+        <a href="iletisim.html" >İLETİŞİM</a>
+        <a href="harita.html" >KONUM</a>
+
+    </nav>
+  </header>   
+
+
+   
+
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>İletişim</h3>
+          
+          <fieldset>
+            <input placeholder="Adınız" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Mail Adresiniz" type="email" tabindex="2" required>
+          </fieldset>
+          <!--<fieldset>
+            <input placeholder="Telefon(İsteğe bağlı)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Web Sitesi(İsteğe bağlı)" type="url" tabindex="4" required>
+          </fieldset>-->
+          <fieldset>
+            <textarea placeholder="Mesajınızı girin...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Kaydı Gönder.</button>
+          </fieldset>
+        </form>
+      </div>
+
+</body>
+</html>
